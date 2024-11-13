@@ -1,12 +1,10 @@
-﻿
+﻿using Tyuiu.MedyanichevDI.Sprint5.Task2.V7.Lib;
 
-using Tyuiu.MedyanichevDI.Sprint5.Task0.V21.Lib;
-
-namespace Tyuiu.MedyanichevDI.Sprint5.Task2.V2
+namespace Tyuiu.MedyanichevDI.Sprint5.Task2.V7
 {
     internal class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             DataService ds = new DataService();
 
@@ -28,13 +26,13 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task2.V2
             Console.WriteLine("***************************************************************************");
             int a = -5;
             int b = 5;
-            
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string res = ds.SaveToFileTextData(a,b);
+            string res = ds.SaveToFileTextData(a, b);
 
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
