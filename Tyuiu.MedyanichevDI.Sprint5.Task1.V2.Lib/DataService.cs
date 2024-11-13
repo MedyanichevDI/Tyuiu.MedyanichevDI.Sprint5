@@ -17,8 +17,8 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task2.V2.Lib
             string strRes;
             for (int x = startValue; x <= stopValue; x++)
             {
-                res = (2 * x - 3) / (Math.Cos(x) - 2 * x)+5*x-6;
-                Math.Round(res, 2);
+                res = Math.Round((2 * x - 3) / (Math.Cos(x) - 2 * x)+5*x-6,2);
+                
                 strRes = Convert.ToString(res);
 
                 if (Math.Cos(x) - 2 * x == 0)
