@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{BE159524-693C-4A7A-9966-7EB8E46A3322}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2", "Tyuiu.MedyanichevDI.Sprint5.Task2.V2\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.csproj", "{DC12FF37-92B7-4573-9039-7637C03E73C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2", "Tyuiu.MedyanichevDI.Sprint5.Task1.V2\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.csproj", "{DC12FF37-92B7-4573-9039-7637C03E73C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Lib", "Tyuiu.MedyanichevDI.Sprint5.Task2.V2.Lib\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Lib.csproj", "{70A16AAF-9FE3-4FBE-841B-4E2DDE966A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Lib", "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Lib\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Lib.csproj", "{70A16AAF-9FE3-4FBE-841B-4E2DDE966A8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Test", "Tyuiu.MedyanichevDI.Sprint5.Task2.V2.Test\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Test.csproj", "{0F437026-CD5E-479D-83F9-86014B8ECDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Test", "Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Test\Tyuiu.MedyanichevDI.Sprint5.Task1.V2.Test.csproj", "{0F437026-CD5E-479D-83F9-86014B8ECDF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
