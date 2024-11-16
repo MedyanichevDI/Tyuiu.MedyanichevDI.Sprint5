@@ -5,7 +5,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task3.V23.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            double calc = Math.Round((1 + Math.Pow(x, 3)) / Math.Pow(x, 2));
+            double calc = Math.Round((1 + Math.Pow(x, 3)) / Math.Pow(x, 2),3);
             string tempPath = Path.GetTempPath();
 
 
