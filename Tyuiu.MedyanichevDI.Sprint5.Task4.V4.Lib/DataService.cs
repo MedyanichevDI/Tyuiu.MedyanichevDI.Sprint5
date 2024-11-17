@@ -19,7 +19,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task4.V4.Lib
                 content = content.Replace(',', '.');
             }
 
-            double y = Math.Round((1 * x) / Math.Cos(x)*4,3);
+            double y = Math.Round((1/4 * x) / Math.Cos(x),3);
 
             return y;
 
