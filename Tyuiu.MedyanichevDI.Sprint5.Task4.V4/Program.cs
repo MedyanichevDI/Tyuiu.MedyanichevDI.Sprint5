@@ -1,6 +1,6 @@
-﻿using Tyuiu.MedyanichevDI.Sprint5.Task3.V23.Lib;
+﻿using Tyuiu.MedyanichevDI.Sprint5.Task4.V4.Lib;
 
-namespace Tyuiu.MedyanichevDI.Sprint5.Task3.V23
+namespace Tyuiu.MedyanichevDI.Sprint5.Task4.V4
 {
     internal class Program
     {
@@ -12,27 +12,28 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task3.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Потоковый метод записи данных в бинарный файл                     *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #23                                                             *");
-            Console.WriteLine("* Выполнил: Медяничев Денис Игоревич | АСОиУб-24-1                        *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Выполнил: Медяничев Денис Игоревич| АСОиУб-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дано выражение вычислить его значение при x = 3,                        *");
-            Console.WriteLine("* результат сохранить в бинарный файл OutPutFileTask3.bin                 *");
-            Console.WriteLine("* и вывести на консоль. Округлить до трёх знаков после запятой.           *");
+            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask4V0.txt                       *");
+            Console.WriteLine("* в котором есть вещественное значение.                                   *");
+            Console.WriteLine("* Прочитать значение из файла и подставить и вернуть полученный результат.*");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            string path;
 
-            int x = 3;
-            Console.WriteLine("X = " + x);
+            Console.WriteLine("Введите путь к файлу:");
+
+            path = Console.ReadLine();
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string res = ds.SaveToFileTextData(x);
-            Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан!");
+            Console.WriteLine("Создан! : " + ds.LoadFromDataFile(path));
         }
     }
 }
