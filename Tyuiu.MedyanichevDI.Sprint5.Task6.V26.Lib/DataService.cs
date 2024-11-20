@@ -16,9 +16,9 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task6.V26.Lib
                 while ((line = reader.ReadLine()) != null)
                 {
                     // Разделяем строку на слова по пробелам и другим разделителям
-                    string[] words = line.Split(new char[] { ' ', ',', '.', '!', '?', ';', ':', '-', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] words = line.Split(new char[] { ' ', ',', '.', '!', ';', ':', '-', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
-                    // Подсчитываем количество слов длиной 8 символов
+                    
                     foreach (var word in words)
                     {
                         if (word == "?")
@@ -29,7 +29,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task6.V26.Lib
                 }
             }
 
-            return count; // Возвращаем результат
+            return count; 
         }
     }
 }
