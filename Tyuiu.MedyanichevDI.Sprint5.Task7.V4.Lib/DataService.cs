@@ -21,7 +21,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task7.V4.Lib
                 {
                     foreach (char c in line)
                     {
-                        if (c >= 0x0400 && c <= 0x04FF)
+                        if (c >= '\u0400'  && c <= '\u045F')
                         {
                             result += (char)(c - '#');
                         }
