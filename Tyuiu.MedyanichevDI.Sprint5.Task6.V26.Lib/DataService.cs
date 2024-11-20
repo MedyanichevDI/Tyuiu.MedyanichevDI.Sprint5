@@ -21,9 +21,14 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task6.V26.Lib
                     
                     foreach (var word in words)
                     {
-                        if (word == "?")
+                        foreach (var i in word)
                         {
-                            count++;
+
+
+                            if (i == '?')
+                            {
+                                count++;
+                            }
                         }
                     }
                 }
