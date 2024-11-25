@@ -21,7 +21,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task7.V4.Lib
                 {
                     foreach (char c in line)
                     {
-                        if (c >= 'А'  && c <= 'Я')
+                        if (c >= 'а'  && c <= 'р')
                         {
                             result += (char)(c - '#');
                         }
