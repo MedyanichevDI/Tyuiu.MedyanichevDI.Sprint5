@@ -1,4 +1,6 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
+﻿using System.Text.RegularExpressions;
+using tyuiu.cources.programming.interfaces.Sprint5;
+using static System.Net.Mime.MediaTypeNames;
 namespace Tyuiu.MedyanichevDI.Sprint5.Task7.V4.Lib
 {
     public class DataService : ISprint5Task7V4
@@ -14,25 +16,14 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task7.V4.Lib
             }
 
             string result = "";
+            string line;
             using (StreamReader reader = new StreamReader(path))
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    foreach (char c in line)
-                    {
-                        if (c >= 'а'  && c <= 'р')
-                        {
-                            result += (char)(c - '#');
-                        }
-                        else
-                        {
-                            result += c;
-                        }
-                    }
-                }
+                string inputText = reader.ReadToEnd();
+                string outputText = Regex.Replace(inputText, @"[А-Яа-я]", "#");
+
+                return outputText;
             }
-            return result;
         }
     }
 }
