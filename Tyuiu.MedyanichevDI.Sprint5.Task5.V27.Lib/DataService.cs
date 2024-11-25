@@ -20,7 +20,7 @@ namespace Tyuiu.MedyanichevDI.Sprint5.Task5.V27.Lib
 
                     foreach (var value in values)
                     {
-                        if (double.TryParse(value, out double number) && number / 5 == 0)
+                        if (double.TryParse(value, out double number) && number % 5 == 0)
                         {
                             positiveNumbers.Add(number);
                         }
